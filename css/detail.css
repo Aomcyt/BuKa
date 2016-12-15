@@ -1,0 +1,81 @@
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+}
+body {
+    position: relative;
+}
+body {
+    margin: 0;
+}
+html{
+	font-size:14px;
+	font-family:'Microsoft YaHei', 'Droid Sans Fallback', SimHei, Arial, Helvetica, tahoma, sans-serif;
+}
+a{
+	display: block;
+    text-decoration: none;
+    color: inherit;
+}
+img{
+	width: 100%;
+    border: none;
+    display: block;
+}
+.topbar_tip {
+    height: 60px;
+    padding: 0 10px;
+    line-height: 60px;
+    position: fixed;
+    background: rgba(0,0,0,.8);
+    width: 100%;
+    color: #fff;
+    top: 0;
+    left: 0;
+    display: none;
+ }
+ .topbar_tip .tip_left {
+    float: left;
+    width: 60%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.topbar_tip a{
+	color: #fff;
+}
+.topbar_tip .tip_left a {
+    display: inline-block;
+}
+.topbar_tip .tip_right {
+    float: right;
+    text-align: right;
+    width: 35%;
+}
+.topbar_tip .tip_right .tip_right_btn, .topbar_tip .tip_right .tip_split {
+    box-sizing: content-box;
+    padding: 0 .3rem;
+    text-align: center;
+    float: right;
+}
+.topbar_tip .tip_right .tip_split {
+    font-size: .9rem;
+}
+.detail-main{
+	margin-bottom: 60px;
+}
+.read_btn {
+	height: 2.5rem;
+    line-height: 2.3rem;
+    text-align: center;
+    width: 100%;
+    border: 1px solid #999;
+    margin: 0 auto;
+}
+.detail-main .img_container {
+    background: #666;
+    min-height: 200px;
+    border-bottom: 2px solid #333;
+    border-top: 2px solid #333;
+}

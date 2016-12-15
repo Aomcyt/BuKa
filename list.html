@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+		<link rel="stylesheet" href="http://at.alicdn.com/t/font_eiwn8jwyot0m5cdi.css"/>
+		<link rel="stylesheet" href="css/footer.css" />
+		<link rel="stylesheet" href="css/list.css" />
+		<title>漫画章节</title>
+	</head>
+	<style>
+	
+	</style>
+	<body>
+		<!--头部-->
+		<header id="header">
+			<!--头部logo-->
+			<div class="header-logo">
+				<a href="/" class="header-logo-left-wraper">
+					<span class="header-logo-left"></span>
+				</a>
+				<a class="header-logo-right" id="search-btn">
+					<i class="icon iconfont icon-sousuo"></i>
+				</a>
+			</div>
+			<!--头部菜单-->
+			<nav class="header-nav-detail">
+				<a href="javascript:history.back();" class="header-detail-return">
+					<span class="icon iconfont icon-fanhui"></span>
+				</a>
+				<span class="header-detail-center">219392</span>
+				<a href="javascript:;" id="header-detail-download" class="header-detail-download">
+					<span class="icon iconfont icon-xiazai"></span>
+				</a>
+			</nav>
+		</header>
+		<!--主体-->
+		<section class="list-main">
+			<!--漫画图片-->
+			<div class="list-picture">
+				<div class="list-picture-show frosted-glass"></div>
+					<div class="list-picture-star">
+						<p class="grade-icon start_1">
+							<span class="grade-icon_2 start_2" style="width:100%"></span>
+						</p>
+						<p>4.4</p>
+					</div>
+					<div class="list-picture-img">
+						<img src="http://c-r5.sosobook.cn/logo/logo5/219392/201611021624/32h.jpg">
+					</div>
+					<div class="list-picture-num">
+						<p class="grade-icon fire"></p>
+						<p>75.54万</p>
+					</div>
+			</div>
+			<!--漫画名字-->
+			<div class="list-text">
+				<!--<p class="list-text-name">Comic Zero Sum 175号</p>-->
+				<a href="javascript:;" id="list-text-author" data-author="一迅社" class="list-text-author">一迅社</a>
+			</div>
+			<!--按钮-->
+			<div class="list-btns">
+				<a href="javascript:;" class="btn btns-add-fav float-left" id="fav-btn">添加收藏</a>
+				<a href="javascript:;" class="btn btn-primary float-right" id="fav-btn">客户端观看</a>
+			</div>
+			<!--描述-->
+			<div class="list-description">
+				<span class="description_intro hide">
+					月刊comicZeroSum是一迅社发行的少女向月刊漫画杂志。其中包括了《最游记》《魔界王子》《狂欢节》《春之诅咒》《loveless》《雨月》《月歌》等优秀漫画。
+				</span>
+				<span id="showmore" class="icon iconfont icon-zhankai"></span>
+			</div>
+			<!--交集按钮-->
+			<div class="list-interact">
+				<a href="javascript:;" class="interact-btn" id="share-btn">
+					<span class="interact-icon icon-share">
+						<img src="img/share_icon.png">
+					</span>
+					<span class="icon-font">
+						分享<span class="icon-number"></span>
+					</span>
+				</a>
+				<a href="javascript:;" class="interact-btn" id="share-btn">
+					<span class="interact-icon icon-share">
+						<img src="img/toudi.png">
+					</span>
+					<span class="icon-font">
+						投稿<span class="icon-number"></span>
+					</span>
+				</a>
+				<a href="javascript:;" class="interact-btn" id="share-btn">
+					<span class="interact-icon icon-share">
+						<img src="img/comment.png">
+					</span>
+					<span class="icon-font">
+						评论<span class="icon-number"></span>
+					</span>
+				</a>
+			</div>
+			<!--章节数容器-->
+			<div class="chapter-area">
+				<div class="chapter-top-title">
+					<span class="top-title-left">
+						连载 (话)
+					</span>
+					<span class="top-title-right">
+						更新:2016-11-04					</span>
+				</div>
+				<!--章节列表-->
+				<div class="chapter-center">
+				</div>
+			</div>
+		</section>
+		<!--点击分享-->
+		<div class="buka-modal">
+			<div class="modal-bg" style="height: 568px;"></div>
+			<div class="buka-modal-main">
+				<div class="buka-modal-top">
+					<a class="modal-closebutton" v-on:click="reset">
+						<span class="icon iconfont icon-chacha"></span>
+					</a>
+					<span class="modal-top-title">分享</span>
+				</div>
+				<div class="buka-modal-btns">
+					<a href="javascript:;" class="share-btn">
+						<span class="icon iconfont icon-xinlangweibo"></span>
+						<span>新浪微博</span>
+					</a>
+					<a href="javascript:;" class="share-btn">
+						<span class="icon iconfont icon-qqkongjian"></span>
+						<span>QQ空间</span>
+					</a>
+					<a href="javascript:;" class="share-btn">
+						<span class="icon iconfont icon-icon"></span>
+						<span>facebook</span>
+					</a>
+					<a href="javascript:;" class="share-btn">
+						<span class="icon iconfont icon-QQ"></span>
+						<span>QQ</span>
+					</a>
+				</div>
+			</div>
+		</div>
+			
+		<!--尾部-->
+		<div id="footer"></div>
+		<!--js-->
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/common.js" ></script>
+		<script type="text/javascript" src="js/list.js" ></script>
+		<script>
+			loadHtml("common/footer.html","footer");
+		</script>
+	</body>
+</html>

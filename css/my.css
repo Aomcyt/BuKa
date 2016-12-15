@@ -1,0 +1,123 @@
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+}
+html{
+	font-size:14px;
+	font-family:'Microsoft YaHei', 'Droid Sans Fallback', SimHei, Arial, Helvetica, tahoma, sans-serif;
+}
+a{
+	text-decoration: none;
+	
+}
+img{
+	width: 100%;
+}
+.my-main{
+	overflow: hidden;
+	/*margin-top: 78px;*/
+		}
+.my-top{
+	height: auto;
+	position: relative;
+}
+.my-top .my-top-bg{
+	width: 100%;
+	height:6.6rem;
+	background: url(../img/user_bg.jpg);
+	background-size: cover;
+}
+ .my-top .my-top-data {
+    position: relative;
+    height: 4rem;
+    padding: .7rem 1rem 0;
+}
+.my-top .my-top-data .data-info {
+    width: 30%;
+    text-align: center;
+}
+.float-left {
+    float: left;
+}
+.my-top-data .data-info .data-info-title {
+    font-size: 1.1rem;
+    color: #333;
+    padding-top: 2px;
+}
+ .my-top .my-top-data .data-info p {
+   text-align: center;
+    line-height: 1.5rem;
+}
+.my-top .my-top-data .data-info-avatar {
+    width: 86px;
+    height: 86px;
+    display: block;
+    position: absolute;
+    top: 11px;
+    left: 50%;
+    padding: .1rem;
+    overflow: hidden;
+    margin: -43px 0 0 -43px;
+    }
+  .my-top-data .data-info-avatar .avatar-img {
+    display: block;
+    width: 100%;
+    background: #f1f1f1;
+    border: 1px solid #DCDCDC;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+}
+.float-right {
+    float: right;
+}
+/*名字*/
+ .my-top .data-username{
+    text-align: center;
+    font-size: 1.1rem;
+}
+.data-username a{
+	color:#000000;
+}
+ .my-top .data-otherdata {
+    text-align: center;
+    color: #999;
+    font-size: .9rem;
+    margin-bottom: .5rem;
+     margin-top: .5rem;
+}
+/*收藏漫画*/
+.my-collect{
+    padding-top: 5px;
+    overflow: hidden;
+    text-align: center;
+    color: #B5B5B5;
+}
+.my-main .nodata {
+    width: 100%;
+    height: 135px;
+    margin: 15% auto 0;
+    color: #999;
+    word-break: keep-all;
+}
+.my-main .nodata .notdata-img {
+    width: 60px;
+    height: 60px;
+    margin: 0 auto .3rem;
+    position: relative;
+    top: -10px;
+    display: block;
+    background:url(../img/nodata.png) no-repeat;
+    background-size: 100% 60px;
+}
+.my-main .nodata .nodata-font {
+    position: relative;
+    top: -10px;
+    left: 17px;
+    font-size: 0.16rem;
+}
+.my-main .nodata .more-link {
+    color: #80cece;
+    margin-left: -12px;
+}

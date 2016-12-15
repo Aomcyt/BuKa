@@ -1,0 +1,181 @@
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+}
+html{
+	font-size:14px;
+	font-family:'Microsoft YaHei', 'Droid Sans Fallback', SimHei, Arial, Helvetica, tahoma, sans-serif;
+}
+a{
+	display: block;
+	text-decoration: none;
+}
+input{
+	outline: 0;
+}
+img{
+	width: 100%;
+}
+header{
+border-bottom: 1px solid rgba(0,0,0,.18);
+}
+header .header-logo{
+	height:44px;
+}
+.header-logo{
+	background: #fff;
+	width: 100%;
+	overflow: hidden;
+}
+.header-logo .header-logo-left-wraper{
+		    width: 120px;
+		    height: 35px;
+		    float: left;
+		}
+.header-logo-left {
+    display: block;
+    width: 60px;
+    height: 29px;
+    background:url(../img/logo.png) no-repeat;
+    background-size: 60px 29px;
+    margin-left: 1rem;
+    margin-top: 0.4rem;
+}
+.header-logo-right {
+    float: right;
+    width: 120px;
+    height: 44px;
+}
+.header-logo-right .icon-sousuo{
+	position: absolute!important;
+	top: 0.2rem!important;
+	right: 1rem!important;
+	font-size: 26px;
+	color:orange;
+	float: right;
+}
+	#header .header-nav-detail{
+    height: 38px;
+    line-height: 38px;
+    background: #fff;
+}
+.header-nav-detail{
+    color: #666;
+    font-size: 15px!important;
+    overflow: hidden;
+    position: relative;
+}
+ .header-detail-return {
+    position: absolute;
+    top: 5px;
+    width: 120px;
+    height: 34px;
+}
+.header-nav-detail .header-detail-center {
+    display: block;
+    width: 50%;
+    position: absolute;
+    left: 50%;
+    top: 6px;
+    margin-left: -25%;
+    text-align: center;
+    line-height: 28px;
+    color: #999;
+    font-weight: 800;
+}
+.header-nav-detail .head-detail-download {
+    width: 120px;
+    height: 34px;
+    position: absolute;
+    right: 0;
+}
+.header-detail-return .icon-fanhui{
+    position: absolute;
+    left: 1.2rem;
+    display: block;
+    float: left;
+   font-size: 27px;
+   color: #999999;
+}
+.header-detail-download .icon-xiazai{
+	 position: absolute;
+    display: block;
+   	right: 1rem;
+   	font-size: 27px;
+   	 color: #999999;
+}
+section{
+	overflow: hidden;
+	padding: 1rem;
+ }
+.main-input-area {
+    border: 1px solid #dcdcdc;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+.main-input-area .input-box {
+    padding: .8rem 2.2rem .8rem .8rem;
+    border-bottom: 1px solid #dcdcdc;
+    position: relative;
+}
+.main-input-area .input-box .input-control {
+    width: 100%;
+    border: none;
+    height: 100%;
+    padding-left: 5px;
+    line-height: 100%;
+}
+ .main-input-area .input-box .from-error {
+    position: absolute;
+    background: #fff;
+    right: 40px;
+    color: #EA6644;
+    display: none;
+    top: 10px;
+}
+.main-input-area .input-box .clear-input-btn {
+    position: absolute;
+    right: .5rem;
+    color: #EA6644;
+    top: .3rem;
+    width: 2rem;
+    text-align: center;
+    line-height: 2rem;
+    display: none;
+    height: 2rem;
+}
+.main-input-area .input-box:last-child {
+    border-bottom: none;
+}
+.main-btn-area {
+    margin-top: 3rem;
+}
+.main-btn-area #subBtn {
+    width: 100%;
+    border: none;
+}
+.main-btn-area .btn {
+    height: 35px;
+    line-height: 35px;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+.btn-slave {
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    text-align: center;
+    border: 1px solid #fe960e;
+}
+.btn-slave{
+    color: #fe960e;
+}
+.btn-primary {
+   /* border-radius: 3px;*/
+    -webkit-border-radius: 3px;
+    color: #fff!important;
+    border: 1px solid #fe960e!important;
+    background: #fe960e;
+}

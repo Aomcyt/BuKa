@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+		<link rel="stylesheet" href="http://at.alicdn.com/t/font_7xfvprul5wswnrk9.css"/>
+		<link rel="stylesheet" href="dist/css/swiper.min.css" />
+		<link rel="stylesheet" href="css/header.css" />
+		<link rel="stylesheet" href="css/footer.css" />
+		<link rel="stylesheet" href="css/index.css" />
+		<title>首页</title>
+	</head>
+	<body>
+		<!--头部-->
+		<div id="header"></div>
+		<!--内容-->
+		<section class="main">
+			<!--轮播图-->
+			<div class="swiper-container">
+			  <div class="swiper-wrapper">
+			    <div class="swiper-slide">
+			    	<img src="img/1.jpg">
+			    </div>
+			    <div class="swiper-slide">
+			    	<img src="img/2.jpg">
+			    </div>
+			    <div class="swiper-slide">
+			    	<img src="img/3.jpg">
+			    </div>
+			    <div class="swiper-slide">
+			    	<img src="img/4.jpg">
+			    </div>
+			  </div>
+			</div>
+			<!--漫画列表-->
+			<div class="main-manga-bar">
+				<div class="manga-bar-top">
+					<div class="manga-bar-top-left">
+						<span class="icon iconfont icon-shudao"></span>
+						<span class="top-left-title">每周推荐</span>
+						<a class="top-right-link"></a>
+					</div>
+				</div>
+				<div class="manga-bar-center manga-bar-center1">
+					<div class="loading">
+						<img src="img/loading.gif"/>
+					</div>
+				</div>
+			</div>
+			<div class="main-manga-bar">
+				<div class="manga-bar-top">
+					<div class="manga-bar-top-left">
+						<span class="icon iconfont icon-shudao"></span>
+						<span class="top-left-title">最近更新</span>
+						<a class="top-right-link">更多</a>
+					</div>
+				</div>
+				<div class="manga-bar-center manga-bar-center2">
+					<div class="loading">
+						<img src="img/loading.gif"/>
+					</div>
+				</div>
+			</div>
+			<div class="main-manga-bar">
+				<div class="manga-bar-top">
+					<div class="manga-bar-top-left">
+						<span class="icon iconfont icon-shudao"></span>
+						<span class="top-left-title">热门连载</span>
+						<a class="top-right-link"></a>
+					</div>
+				</div>
+				<div class="manga-bar-center manga-bar-center3">
+					<div class="loading">
+						<img src="img/loading.gif"/>
+					</div>
+				</div>
+			</div>
+			<div class="main-manga-bar">
+				<div class="manga-bar-top">
+					<div class="manga-bar-top-left">
+						<span class="icon iconfont icon-shudao"></span>
+						<span class="top-left-title">精彩专题</span>
+						<a class="top-right-link">更多</a>
+					</div>
+				</div>
+				<div class="manga-bar-center">
+					<a href="/group/1-12024?title=知音漫客" class="manga-item-crosswise">
+						<img src="http://c-r5.sosobook.cn/auto/appRecom/20150921173331_55ffceeb5f8a5.jpg">
+						<p class="manga-item-crosswise-name">知音漫客</p>
+					</a>
+					<a href="/group/1-12016?title=夏天岛" class="manga-item-crosswise">
+						<img src="http://c-r5.sosobook.cn/auto/appRecom/20150727182428_55b606dc860eb.jpg">
+						<p class="manga-item-crosswise-name">夏天岛</p>
+					</a>
+					<a href="/group/1-12059?title=污托邦" class="manga-item-crosswise">
+						<img src="http://c-r5.sosobook.cn/auto/appRecom/20160822163437_57bab91d8a38b.jpg">
+						<p class="manga-item-crosswise-name">污托邦</p>
+					</a>
+					<a href="/group/1-12049?title=星空社" class="manga-item-crosswise">
+						<img src="http://c-r5.sosobook.cn/auto/appRecom/20160920133107_57e0c99bb5d56.jpg">
+						<p class="manga-item-crosswise-name">星空社</p>
+					</a>
+				</div>
+			</div>
+		</section>
+		<!--尾部-->
+		<div id="footer"></div>
+		<script type="text/javascript" src="js/jquery.js" ></script>
+		<script type="text/javascript" src="js/common.js" ></script>
+		<script type="text/javascript" src="js/index.js" ></script>
+		<script type="text/javascript" src="dist/js/swiper.jquery.min.js" ></script>
+		<script>
+			loadHtml("common/header.html","header");
+			loadHtml("common/footer.html","footer");
+		</script>
+	</body>
+</html>

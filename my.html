@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+		<link rel="stylesheet" href="http://at.alicdn.com/t/font_g7aej2voby1zto6r.css" />
+		<link rel="stylesheet" href="css/header.css" />
+		<link rel="stylesheet" href="css/footer.css" />
+		<link rel="stylesheet" href="css/my.css" />
+		<title>我的</title>
+	</head>
+	<style>
+		
+	</style>
+	<body>
+		<!--头部-->
+		<div id="header"></div>
+		<!--内容-->
+		<section class="my-main">
+			<div class="my-top">
+				<div class="my-top-bg"></div>
+				<div class="my-top-data">
+					<div class="data-info float-left">
+						<a href="/mypublish">
+							<p class="data-info-title"></p>
+							<p class="data-info-title">评论</p>
+						</a>
+					</div>
+					<!--头像-->
+					<div class="data-info-avatar">
+						<a href="javascript:;" id="loginout_avatar">
+							<img src="img/no_avatar.jpg" class="avatar-img">
+						</a>
+					</div>
+					<div class="data-info float-right">
+						<a href="/order">
+							<p class="data-info-title"></p>
+							<p class="data-info-title">订单</p>
+						</a>
+					</div>
+				</div>
+				<div class="data-username">
+					<a href="login_info.html" id="loginout_name">登录</a>
+				</div>
+				<div class="data-otherdata">
+					<span>收藏
+						<span id="fav_num">0</span>
+					</span>
+				</div>
+			</div>
+			<div class="my-collect">
+				<div class="nodata">
+					<span class="notdata-img"></span>
+					<p class="nodata-font">还没有收藏漫画哟╮(╯3╰)╭</p>
+					<a href="/" class="more-link"><b>发现精彩内容</b></a>
+				</div>
+			</div>
+		</section>
+		<!--尾部-->
+		<div id="footer"></div>
+		<!--js-->
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/common.js" ></script>
+		
+		<script>
+			loadHtml("common/header.html","header");
+			loadHtml("common/footer.html","footer");
+		</script>
+	</body>
+</html>
