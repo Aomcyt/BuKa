@@ -9,9 +9,6 @@ function loadHtml(url, targetId){
 		})
 	}
 $(function(){
-	$(".header-nav-list li").click(function(){
-			console.log(1111)
-			$(this).children("a").css("color","#FFA500").parents(".header-nav-list li").siblings().children("a").css("color","#666666");
-		})
-	
+	var data = window.location.search.slice(1);
+	$(".header-nav-list a").eq(data-1).css("color","#FFA500");
 })

@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
-		<link rel="stylesheet" href="http://at.alicdn.com/t/font_9ejq17rye0o1or.css"/>
+		<link rel="stylesheet" href="http://at.alicdn.com/t/font_06la30wf2zk3mcxr.css"/>
 		<link rel="stylesheet" href="css/regist.css" />
 		<title>布卡注册</title>
 	</head>
@@ -24,43 +24,60 @@
 				<a href="javascript:history.back();" class="header-detail-return">
 					<span class="icon iconfont icon-fanhui"></span>
 				</a>
-				<span class="header-detail-center">登录</span>
+				<span class="header-detail-center">注册</span>
 			</nav>
 		</header>
 		<section>
-			<form id="regist-form" method="post">
+			<div id="regist-form" method="post">
 				<div class="main-input-area">
 					<div class="input-box">
-						<input type="text" id="regist-username" class="input-control" name="login_username" placeholder="邮箱 | 手机号" />
-						<span class="from-error">用户名格式不正确</span>
-						<a href="javascript:;" class="clear-input-btn">
+						<input type="text" id="regist-username" class="input-control" name="login_username" placeholder="邮箱 | 11位手机号" />
+						<span class="from-error error1"></span>
+						<a href="javascript:;" class="clear-input-btn clear-input-btn1">
 							<span class="icon iconfont icon-cuowu"></span>
+						</a>
+						<a href="javascript:;" class="clear-input-btn1_1">
+							<span class="icon iconfont icon-lvgou"></span>
 						</a>
 					</div>
 					<div class="input-box">
 						<input type="password" id="regist-password1" name="regist_password" class="input-control-pwd input-control error" placeholder="密码（6-16位）">
-						<span class="from-error show">密码不能为空</span>
-						<a href="javascript:;" class="clear-input-btn">
+						<span class="from-error error2">密码不能为空</span>
+						<a href="javascript:;" class="clear-input-btn clear-input-btn2">
 							<span class="icon iconfont icon-cuowu"></span>
+						</a>
+						<a href="javascript:;" class="clear-input-btn2_2">
+							<span class="icon iconfont icon-lvgou"></span>
 						</a>
 					</div>
 					<div class="input-box">
 						<input type="password" id="regist-password2" name="regist_password" class="input-control-pwd input-control error" placeholder="再次输入密码">
-						<span class="from-error show">密码不一致</span>
-						<a href="javascript:;" class="clear-input-btn">
+						<span class="from-error error3">密码不一致</span>
+						<a href="javascript:;" class="clear-input-btn clear-input-btn3">
 							<span class="icon iconfont icon-cuowu"></span>
+						</a>
+						<a href="javascript:;" class="clear-input-btn3_3">
+							<span class="icon iconfont icon-lvgou"></span>
 						</a>
 					</div>
 				</div>
 				<div class="main-btn-area">
-					<div id="regist-loading" style="display: block;">
+					<!--注册失败警告-->
+					<div class="warrn">
+						<span class="icon iconfont icon-icon1"></span>
+						<span class="warrn-text">注册失败</span>
+					</div>
+					<div id="regist-loading">
 						<div class="btn btn-primary">
 							<img style="width:17px;position: relative;top:2px;" src="img/loading_2.gif">注册成功</div>
 					</div>
 					<input type="submit" value="注册" class="btn btn-primary" id="regBtn">	
 					<a class="btn btn-slave" id="regbtn">下载APP,注册新用户o(∩_∩)o</a>
 				</div>
-			</form>
+			</div>
 		</section>
+		<script type="text/javascript" src="js/jquery.js" ></script>
+		<script type="text/javascript" src="js/common.js" ></script>
+		<script type="text/javascript" src="js/regist.js" ></script>
 	</body>
 </html>

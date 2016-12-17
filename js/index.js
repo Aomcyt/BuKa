@@ -28,7 +28,7 @@ $(function(){
 					for(var i=0;i<6;i++){
 						str1+=`
 						<div class="manga-item">
-						<a href="list.html?comicName=${_data[i].name}&imgname=${_data[i].coverImg}" "target=_blank">
+						<a href="list.html?comicName=${_data[i].name}&imgUrl=${_data[i].coverImg}" "target=_blank">
 							<img src="${_data[i].coverImg}" />
 							<p>
 								<span>${_data[i].name}</span>
@@ -40,7 +40,7 @@ $(function(){
 					for(var i=6;i<12;i++){
 						str2+=`
 						<div class="manga-item">
-						<a href="list.html?comicName=${_data[i].name}" "target=_blank">
+						<a href="list.html?comicName=${_data[i].name}&imgUrl=${_data[i].coverImg}" "target=_blank">
 							<img src="${_data[i].coverImg}" />
 							<p>
 								<span>${_data[i].name}</span>
@@ -49,10 +49,11 @@ $(function(){
 					</div>`
 					}
 					$(".manga-bar-center2").html(str2);
+					
 					for(var i=12;i<20;i++){
 						str3+=`
 						<div class="manga-item">
-						<a href="list.html?type=${_data[i].name}&comicName=${_data[i].name}" "target=_blank">
+						<a href="list.html?comicName=${_data[i].name}&imgUrl=${_data[i].coverImg}" "target=_blank">
 							<img src="${_data[i].coverImg}" />
 							<p>
 								<span>${_data[i].name}</span>

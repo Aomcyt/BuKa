@@ -13,10 +13,13 @@ $(function(){
 	//加载数据
 			var str1="";
 			var str2="";
+			var str3="";
 			var newData=window.location.search;
 			console.log(newData);
-//			var aNewData=newData.slice("&",);
-//			console.log(aNewData);
+			var aNewData=newData.split("?")[1].split("&")[1].split("=")[1];
+			console.log(aNewData);
+			str3+=`<img src="${aNewData}">`
+			$(".list-picture-img").html(str3)
 			var url="http://japi.juhe.cn/comic/chapter";
 			var key="skip=&finish=&key=a2d047469c2bbf5400fe152f8e23d40e";
 			getData(url,newData);
